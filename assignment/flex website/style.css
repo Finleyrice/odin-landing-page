@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+img[alt="FRANKNIU"] {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    color: white;
+}
+
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border: 1px solid white;
+    box-shadow: grey 0 0 10px;
+    background-color: #1f2937;
+}
+.logo {
+    cursor: pointer;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+color: white
+}
+.nav__links li a:hover {
+    color: white;
+}
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+.feature-box {
+    background-image: url(https://costar.brightspotcdn.com/dims4/default/6f4b59b/2147483647/strip/true/crop/2100x1399+0+0/resize/2100x1399!/quality/100/?url=http%3A%2F%2Fcostar-brightspot.s3.amazonaws.com%2F98%2F1d%2F02deed194d2cb5ff67f90b418976%2Fbuildingphoto.jpg);
+    background-size: 100%;
+    background-position: centre;
+    display: flex;
+    border: 1px solid white;
+    box-shadow: grey 0 0 10px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrapper {
+    height: 300px;
+    width: 1000px;
+    background-color: #1f2937;
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+    border-radius: 200px;
+}
+.wrapper h2 {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 28px;
+    text-decoration: underline;
+    display: inline-block;
+    position: relative;
+    bottom: 70px;
+    left: 70px;
+}
+.wrapper p {
+    
+    display: inline-block;
+    color:white;
+    position: relative;
+    left: 70px;
+    bottom: 70px;
+    width: 650px;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+    
+
+.wrapper img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: right;
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+    margin: 0;
+}
+.wrapper figure {
+    padding: 23px 40px 90px 0px;
+}
+
+
+
+.features {
+    background-color: #1f2937;
+    color: white;
+    padding:40px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    box-shadow: grey 0 0 10px;
+}
+
+.features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.features figure img {
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50px; 
+    box-shadow: grey 0 0 10px;
+}
+.features figcaption {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+
+.mid-low {
+    background-color: #E5E7EB;
+    color: black;
+    padding: 125px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.mid-low p {
+    text-align: end;
+    font-weight:600;
+    color: red;
+    font-family: 'Rubik', sans-serif;
+}
+.lower {
+    background-color: #1f2937;
+    color: black;
+    padding: 125px;
+    border: 1px solid white; 
+    box-shadow: gray 0 0 10px;
+
+}
+.like {
+    background-color: #1f2937;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: gray 0 0 10px;
+}
+.like h2 {
+    padding: 20px 20px 0px 20px;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 28px;
+    text-decoration: underline;
+}
+.like p {
+    padding: 0px 20px 20px 20px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+footer {
+    background-color: #1f2937;
+    padding: 10px 20px;
+    font-size: 14px;
+    padding: 20px 20px;
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: grey 0 0 10px;
+}
+
+
+
